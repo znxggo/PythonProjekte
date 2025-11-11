@@ -19,7 +19,7 @@ print(X.shape)
 #Aufgabe 3
 data = {
     'name': ['Julian','Lukas','Constantin','Johannes','Anna'],
-    'alter': [42, 12, 33, 88, 20],
+    'alter': [42, 12, 33, 87, 20],
     'note': [1.7, 2.3, 3.1, 2.6, 1.0]
 }
 df = pd.DataFrame(data)
