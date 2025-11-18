@@ -30,5 +30,15 @@ print("Außerhalb:", x)
     #Die Funktion func() gibt [In func: lokal] aus
     #print("Außerhalb:", x) gibt [Außerhalb: global] aus
 
-#Aufgabe 3
+#Aufgabe 4
 
+x = "global"
+
+def func():
+    global x
+    x = "verändert"
+
+func()
+print(x)  # Lösung: verändert
+
+#Aufgabe 5
