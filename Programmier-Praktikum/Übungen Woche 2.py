@@ -39,6 +39,7 @@ def func():
     x = "verändert"
 
 func()
-print(x)  # Lösung: verändert
+print(x)  #Lösung: [verändert]
 
 #Aufgabe 5
+
