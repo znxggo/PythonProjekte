@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+temp.ipynb
+.ipynb_checkpoints
+/lab_ex/ds_euler_exercises.ipynb
